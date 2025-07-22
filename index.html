@@ -5,7 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./style.css" />
-    <script src="./script.js"></script>
+    <script defer src="./script.js"></script>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+        <h1 class="heading">Game of Life</h1>
+        <table id="board"></table>
+
+        <div id="controller">
+            <button id="stepBtn" class="btn">Step</button>
+            <button id="playBtn" class="btn">Play</button>
+            <button id="restBtn" class="btn">Reset Random</button>
+            <button id="clearBtn" class="btn">Clear</button>
+        </div>
+    </div>
+  </body>
 </html>
