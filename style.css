@@ -7,10 +7,15 @@ body{
 h1{
     font-weight: normal;
 }
-#board{
+
+table{
+    border: 1.5px solid black;
+}
+
+#table{
     border-collapse: collapse;
 }
-#board td{
+#table td{
     border:1px solid #ddd;
     width: 18px;
     height: 18px;
